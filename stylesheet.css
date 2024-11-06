@@ -21,9 +21,30 @@
 
 #logo {
 
+    /*to adjust size of logo image*/
     width: 150px;
     height: auto;
 
-
 }
 
+.intro {
+
+    /*to modify text gap*/
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+#career {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+
+    /*to close the gap between name and career texts*/
+    margin-top: -30px;
+}
