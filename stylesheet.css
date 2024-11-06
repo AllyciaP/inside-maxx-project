@@ -62,8 +62,11 @@
 }
 
 #hero-1 {
+
+    /* to minimize size and elongate photo */
     height: 559px;
     width: 1900px;
 
+    /*to maintain size in container?? */
     flex-shrink: 1;
 }
