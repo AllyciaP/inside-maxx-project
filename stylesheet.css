@@ -1,0 +1,29 @@
+.page {
+
+    /*modifies direction of containers */
+    display: flex;
+
+    /*containers flow vertically*/
+    flex-direction: column;
+}
+
+.header {
+
+    display: flex;
+
+    /*container flows horizontally*/
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+
+
+#logo {
+
+    width: 150px;
+    height: auto;
+
+
+}
+
