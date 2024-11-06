@@ -14,7 +14,10 @@
     /*container flows horizontally*/
     flex-direction: row;
 
+    /*to maintain space between logo and introdutcion text*/
     justify-content: space-between;
+
+
 }
 
 
@@ -28,6 +31,8 @@
     /*to move logo image away from edge*/
     padding-left: 150px;
 
+    /*to keep space between logo and introduction*/
+    margin-right: 150px;
 }
 
 .intro {
@@ -38,10 +43,13 @@
 
     /*to move introduction text away from edge*/
     padding-right: 150px;
+
+    /*to keep space between logo and introduction*/
+    margin-right: 150px;
 }
 
 #name {
-    font-family: 'Helvetica Neue',sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-weight: 900;
     font-size: 28px;
 }
@@ -58,15 +66,16 @@
 .main-photo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+
+    /*to keep image wider than longer*/
+    max-height: 400px;
+
 }
 
 #hero-1 {
 
     /* to minimize size and elongate photo */
-    height: 559px;
-    width: 1900px;
+    height: auto;
+    max-width: 1900px;
 
-    /*to maintain size in container?? */
-    flex-shrink: 1;
 }
