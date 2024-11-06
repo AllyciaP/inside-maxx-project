@@ -14,7 +14,7 @@
     /*container flows horizontally*/
     flex-direction: row;
 
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -25,6 +25,9 @@
     width: 150px;
     height: auto;
 
+    /*to move logo image away from edge*/
+    padding-left: 150px;
+
 }
 
 .intro {
@@ -32,6 +35,9 @@
     /*to modify text gap*/
     display: flex;
     flex-direction: column;
+
+    /*to move introduction text away from edge*/
+    padding-right: 150px;
 }
 
 #name {
@@ -47,4 +53,17 @@
 
     /*to close the gap between name and career texts*/
     margin-top: -30px;
+}
+
+.main-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hero-1 {
+    height: 559px;
+    width: 1900px;
+
+    flex-shrink: 1;
 }
