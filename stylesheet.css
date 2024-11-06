@@ -79,3 +79,63 @@
     max-width: 1900px;
 
 }
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    
+    display: flex;
+
+    /*centers Portfolio text*/
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-top-color:#0D4B6E; 
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Helvetica Neue', sans-serif;
+    border-bottom-color:#0D4B6E; 
+    border-bottom-width: 8px;
+    border-bottom-style: solid;
+    
+}
+
+.top-text {
+    font-size: 24px;
+    
+}
+
+.link-text {
+    font-size: 18px;
+
+}
