@@ -113,6 +113,8 @@
     /*adjusts the space between each "box"*/
     gap: 20px;
 
+    /*for space bewteen Portfolio text and border */
+    margin-top: 25px;
 }
 
 /*contains a title, link, and image*/
@@ -145,18 +147,22 @@
     border-bottom-color:#0D4B6E; 
     border-bottom-width: 8px;
     border-bottom-style: solid;
+
+    padding: 5px;
     
 }
 
 .top-text {
     font-size: 24px;
 
-    
+    margin: 1px;
 }
 
 .link-text {
-    font-size: 18px;
+    font-size: 24px;
+    font-style: italic;
 
+    font-family: 'Baskerville', cursive;
     color: #BB1F25;
 
 }
@@ -164,4 +170,19 @@
 .box-photo {
     height: 200px;
     width: 400px;
+
+    /* for space btween link and picture*/
+    margin-top: 25px;
+}
+
+.footer {
+    display: flex;
+
+    /* centers footer items */
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+  
 }
