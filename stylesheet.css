@@ -96,33 +96,51 @@
     justify-content: center;
     align-items: center;
 
+    /*adjusts space between hero1 image and "Portfolio" text*/
     margin-top: 25px;
 }
 
 .boxes {
+
+    /* makes container flows horizontally*/
     display: flex;
     flex-direction: row;
+
+    /*centers the boxes( the titles with links and images) */
     justify-content: center;
     align-items: center;
-    gap: 10px;
+
+    /*adjusts the space between each "box"*/
+    gap: 20px;
 
 }
 
+/*contains a title, link, and image*/
 .box {
+
+    /*makes container flow vertically*/
     display: flex;
     flex-direction: column;
+
+    /*adds border stylings above title and under Portfolio*/
     border-top-color:#0D4B6E; 
     border-top-width: 1px;
     border-top-style: solid;
+
+    
+    
 }
 
 .text-box {
+    /* the title and link are vertically placed*/
     display: flex;
     flex-direction: column;
 
+    /*centers title and link*/
     justify-content: center;
     align-items: center;
 
+    /*adds border stylings between links and images*/
     font-family: 'Helvetica Neue', sans-serif;
     border-bottom-color:#0D4B6E; 
     border-bottom-width: 8px;
@@ -132,10 +150,18 @@
 
 .top-text {
     font-size: 24px;
+
     
 }
 
 .link-text {
     font-size: 18px;
 
+    color: #BB1F25;
+
+}
+
+.box-photo {
+    height: 200px;
+    width: 400px;
 }
