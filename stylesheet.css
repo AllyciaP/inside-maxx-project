@@ -76,8 +76,9 @@
 
     /* to minimize size and elongate photo */
     height: auto;
-    max-width: 1900px;
+    max-width: 2900px;
 
+    flex: 1, 1, auto;
 }
 
 #portfolio {
@@ -98,6 +99,8 @@
 
     /*adjusts space between hero1 image and "Portfolio" text*/
     margin-top: 25px;
+
+    
 }
 
 .boxes {
@@ -184,5 +187,18 @@
 }
 
 .footer-text {
-  
+  color: whitesmoke;
+  background-color: #3D3D3D;
+
+  flex-grow: 1;
+
+  padding: 50px;
+
+  /*centers text in footer*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 0px;
+
 }
