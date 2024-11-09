@@ -76,7 +76,7 @@
 
     /* to minimize size and elongate photo */
     height: auto;
-    max-width: 2900px;
+    max-width: 2000px;
 
     flex: 1, 1, auto;
 }
