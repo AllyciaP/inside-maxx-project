@@ -68,17 +68,21 @@
     flex-direction: row;
 
     /*to keep image wider than longer*/
-    max-height: 400px;
+    max-height: 500px;
 
 }
 
 #hero-1 {
-
+    display: flex;
     /* to minimize size and elongate photo */
+     flex: 1, 1, 0;
+     
     height: auto;
-    max-width: 2000px;
+    width: 1905px;
 
-    flex: 1, 1, auto;
+ 
+    
+   
 }
 
 #portfolio {
