@@ -68,7 +68,7 @@
     flex-direction: row;
 
     /*to keep image wider than longer*/
-    max-height: 500px;
+    max-height: 557px;
 
 }
 
@@ -78,7 +78,7 @@
      flex: 1, 1, 0;
      
     height: auto;
-    width: 1905px;
+    width: 100%;
 
  
     
