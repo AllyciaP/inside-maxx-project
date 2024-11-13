@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+}
+
 .page {
 
     /*modifies direction of containers */
@@ -5,6 +9,7 @@
 
     /*containers flow vertically*/
     flex-direction: column;
+
 }
 
 .header {
@@ -68,14 +73,15 @@
     flex-direction: row;
 
     /*to keep image wider than longer*/
-    max-height: 557px;
+    height: 700px;
+
 
 }
 
 #hero-1 {
     display: flex;
     /* to minimize size and elongate photo */
-     flex: 1, 1, 0;
+    flex-shrink: 1;
      
     height: auto;
     width: 100%;
